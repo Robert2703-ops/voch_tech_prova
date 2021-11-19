@@ -14,7 +14,7 @@
     
             @if ( $errors->any() )
                 <ul class="message-errors-form">
-                    @foreach ($errors as $error)
+                    @foreach ($errors->all() as $error)
                         <li> {{ $error }} </li>
                     @endforeach
                 </ul>

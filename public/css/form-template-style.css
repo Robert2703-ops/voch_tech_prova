@@ -139,6 +139,19 @@
     color: white;
 }
 
+ul.message-errors-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+ul.message-errors-form li {
+    color: red;
+}
+
 /* class that will be animated */
 .error-message {
     display: none;

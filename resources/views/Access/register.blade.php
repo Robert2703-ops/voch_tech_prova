@@ -67,7 +67,7 @@
             </div>
 
             <div class="submit-button">
-                <button type="submit" >Create</button>
+                <button type="submit" disabled>Create</button>
             </div>
 
         </form>
