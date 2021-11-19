@@ -7,7 +7,11 @@
 @section('page-content')
     <div class="change-person-main-content">
 
-        <form action="/{{ $person['id'] }}" method="post">
+        <form action="{{ route('update-person', $person['id']) }}" method="POST">
+            <div class="message-change-user">
+                <h2>User: {{ $person['name'] }}</h2>
+            </div>
+
             @csrf
             @method('PUT')
 
@@ -22,14 +26,14 @@
             <div class="change-person-container-error-message">
                 <div class="container-change-person-input">
                     <label for="">Age</label>
-                    <input type="number" name="name" value="{{ $person['age'] }}">
+                    <input type="number" name="age" value="{{ $person['age'] }}">
                 </div>
 
                 <div class="error-message"></div>
             </div>
             
             <div class="submit-button-change-person">
-                <button type="submit">chnage</button>
+                <button type="submit">change</button>
             </div>
         </form>
 

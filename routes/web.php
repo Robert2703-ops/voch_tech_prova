@@ -43,5 +43,5 @@ Route::group([
     Route::delete('/delete/{id}', [PersonController::class, 'delete'])->name('delete-person');
 
     Route::get('/change-person/{id}', [PersonController::class, 'changeView'])->name('edit-person');
-    Route::put('/change-person/{id}', [PersonController::class, 'changePerson'])->name('edit-person');
+    Route::put('/change-person/{id}', [PersonController::class, 'change'])->name('update-person');
 });

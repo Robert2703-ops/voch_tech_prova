@@ -32,18 +32,16 @@ class PersonController extends Controller
     }
 
     // editing the person
-    public function changePerson( Request $request, int $id ) {
+    public function change( int $id, Request $request ) {
         $person = $request->validate([
             'name' => 'required|min:4|string',
             'age' => 'required'
         ]);
 
-        return $person;
-        // Person::where('id', $id)->update($person);
+        Person::where('id', $id)->update($person);
 
-        // return redirect()->route('dashboard');
+        return redirect()->route('dashboard');
     }
-
 
     // DELETE
     public function delete( int $id ) {

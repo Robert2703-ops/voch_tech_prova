@@ -1,0 +1,78 @@
+.change-person-main-content {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-person-main-content form {
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.change-person-container-error-message {
+    width: 70%;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-change-person-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-change-person-input input {
+    width: 40%;
+
+    transition: 0.20s;
+}
+
+.container-change-person-input input:focus {
+    width: 55%;
+}
+
+.submit-button-change-person {
+    width: 10%;
+    height: 30px;
+
+    border-radius: 10px;
+
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+    transition: 0.20s;
+
+    cursor: pointer;
+}
+
+.submit-button-change-person:hover {
+    width: 13%;
+}
+
+.submit-button-change-person button {
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    transition: 0.20s;
+
+    cursor: pointer;
+}
+
+.submit-button-change-person button:hover {
+    background: black;
+
+    color: white;
+}

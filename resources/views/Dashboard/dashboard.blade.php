@@ -111,7 +111,3 @@
     @endsection
 
 @endsection
-
-@section('script')
-    <script src="/js/checkfields.js"></script>
-@endsection

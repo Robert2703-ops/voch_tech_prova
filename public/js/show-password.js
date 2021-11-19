@@ -81,8 +81,6 @@ function checkFields( inputList, submitButton ) {
     }
 
     if ( inputsChecked.length === inputList.length ) {
-        //console.log( submitButton.disabled )  
-        //submitButton.disabled = false
         document.querySelector('.submit-button button').disabled = false
     }
 }

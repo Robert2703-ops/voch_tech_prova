@@ -14,6 +14,9 @@
     <!-- dashboard style -->
     <link rel="stylesheet" href="/css/dahsboard-style.css">
 
+    <!-- change person -->
+    <link rel="stylesheet" href="/css/change-person-style.css">
+
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
